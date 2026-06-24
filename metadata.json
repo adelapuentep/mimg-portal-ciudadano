@@ -1,0 +1,6 @@
+{
+  "name": "Portal Ciudadano Guayaquil",
+  "description": "Prototipo interactivo del nuevo Portal Ciudadano de Guayaquil, unificando la alta funcionalidad de TIC con la estética moderna de Comunicación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
