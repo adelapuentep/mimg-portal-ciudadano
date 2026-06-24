@@ -147,8 +147,8 @@ export default function App() {
       <div className={`flex-grow flex flex-col transition-all duration-500 ${isCodeOpen ? 'lg:max-w-[50%]' : 'w-full'}`}>
         
         {/* TOP CONTROLLER BAR: For switching views, logging in, or trigger the Dev workspace */}
-        <div className="bg-slate-900 border-b border-slate-800 px-6 py-3 flex flex-wrap items-center justify-between gap-4 z-20 shadow-lg">
-          <div className="flex items-center gap-3">
+        {/* <div className="bg-slate-900 border-b border-slate-800 px-6 py-3 flex flex-wrap items-center justify-between gap-4 z-20 shadow-lg"> */}
+          {/* <div className="flex items-center gap-3">
             <span className="flex h-3 w-3 relative">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
@@ -157,11 +157,11 @@ export default function App() {
               <p className="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Entorno de Prototipado Híbrido</p>
               <h2 className="text-xs text-[#009cdf] font-extrabold">Muy Ilustre Municipalidad de Guayaquil</h2>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2"> */}
             {/* Simulation Controls for testing */}
-            <div className="flex bg-slate-950 rounded-xl p-1 border border-slate-800 text-xs">
+            {/* <div className="flex bg-slate-950 rounded-xl p-1 border border-slate-800 text-xs">
               <button 
                 id="btn-nav-landing"
                 onClick={() => { setCurrentView('landing'); setUser(u => ({...u, isLogged: false})); }}
@@ -183,10 +183,10 @@ export default function App() {
               >
                 Escritorio TIC
               </button>
-            </div>
+            </div> */}
 
             {/* Angular 17 Code Panel Toggle Button */}
-            <button 
+            {/* <button 
               id="btn-toggle-code"
               onClick={() => setIsCodeOpen(!isCodeOpen)}
               className={`cursor-pointer flex items-center gap-2 font-bold px-4 py-2 rounded-xl text-xs transition-all ${isCodeOpen ? 'bg-[#efc600] text-slate-900 shadow-lg scale-105' : 'bg-slate-800 hover:bg-slate-700 text-white'}`}
@@ -194,9 +194,9 @@ export default function App() {
               <Code className="w-4 h-4" />
               <span className="hidden md:inline">Ver Código Angular 17</span>
               {isCodeOpen ? '✕' : '📂'}
-            </button>
-          </div>
-        </div>
+            </button> */}
+          {/* </div> */}
+        {/* </div> */}
 
         {/* SCREEN 1: LANDING VIEW (Immersive aesthetic from Communications proposal, pages 2-4) */}
         {currentView === 'landing' && (
@@ -212,7 +212,7 @@ export default function App() {
               <header className="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 pb-6">
                 <div className="flex items-center gap-4">
                   <img 
-                    src="/assets/placeholder-mimg-logo-white.svg" 
+                    src="../assets/placeholder-mimg-logo-white.svg" 
                     alt="M.I. Municipalidad de Guayaquil" 
                     className="h-12 w-auto object-contain" 
                     referrerPolicy="no-referrer"
@@ -242,11 +242,11 @@ export default function App() {
                 <div className="lg:col-span-5 text-left space-y-6">
                   <div className="inline-flex items-center gap-2 bg-[#efc600]/20 text-[#efc600] px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest border border-[#efc600]/30 shadow-inner">
                     <Sparkles className="w-3.5 h-3.5 text-[#efc600] animate-pulse" />
-                    <span>NUEVO PORTAL UNIFICADO 2026</span>
+                    <span>NUEVO PORTAL CIUDADANO 2026</span>
                   </div>
                   
                   <h1 className="text-4xl sm:text-5xl font-black text-white leading-tight tracking-tight font-display">
-                    SERVICIO <br/>
+                    SERVICIOS <br/>
                     <span className="text-[#009cdf]">EN LÍNEA</span>
                   </h1>
                   
@@ -339,7 +339,7 @@ export default function App() {
 
                 {/* Slogans Box replaced with SVG Footer Logo */}
                 <img 
-                  src="/assets/placeholder-ashlcdtaa-fc.svg" 
+                  src="../assets/placeholder-ashlcdtaa-fc.svg" 
                   alt="Aquiles Alcalde - Así se hace la ciudad de todos" 
                   className="h-10 w-auto object-contain" 
                   referrerPolicy="no-referrer"
@@ -361,7 +361,7 @@ export default function App() {
               
               <div className="relative z-10 text-left max-w-lg space-y-6">
                 <img 
-                  src="/assets/placeholder-mimg-logo-white.svg" 
+                  src="../assets/placeholder-mimg-logo-white.svg" 
                   alt="M.I. Municipalidad de Guayaquil" 
                   className="h-14 w-auto object-contain" 
                   referrerPolicy="no-referrer"
@@ -473,7 +473,7 @@ export default function App() {
             <div className="bg-[#2e2f63] text-white px-6 py-4 shadow-md flex flex-col md:flex-row items-center justify-between gap-4 z-10 border-b border-white/10">
               <div className="flex items-center gap-4">
                 <img 
-                  src="/assets/placeholder-mimg-logo-white.svg" 
+                  src="../assets/placeholder-mimg-logo-white.svg" 
                   alt="M.I. Municipalidad de Guayaquil" 
                   className="h-10 w-auto object-contain" 
                   referrerPolicy="no-referrer"
