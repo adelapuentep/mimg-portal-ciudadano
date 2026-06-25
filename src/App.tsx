@@ -212,7 +212,7 @@ export default function App() {
               <header className="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-white/10 pb-6">
                 <div className="flex items-center gap-4">
                   <img 
-                    src="../assets/placeholder-mimg-logo-white.svg" 
+                    src="/assets/placeholder-mimg-logo-white.svg" 
                     alt="M.I. Municipalidad de Guayaquil" 
                     className="h-12 w-auto object-contain" 
                     referrerPolicy="no-referrer"
@@ -339,7 +339,7 @@ export default function App() {
 
                 {/* Slogans Box replaced with SVG Footer Logo */}
                 <img 
-                  src="../assets/placeholder-ashlcdtaa-fc.svg" 
+                  src="/assets/placeholder-ashlcdtaa-fc.svg" 
                   alt="Aquiles Alcalde - Así se hace la ciudad de todos" 
                   className="h-10 w-auto object-contain" 
                   referrerPolicy="no-referrer"
@@ -361,7 +361,7 @@ export default function App() {
               
               <div className="relative z-10 text-left max-w-lg space-y-6">
                 <img 
-                  src="../assets/placeholder-mimg-logo-white.svg" 
+                  src="/assets/placeholder-mimg-logo-white.svg" 
                   alt="M.I. Municipalidad de Guayaquil" 
                   className="h-14 w-auto object-contain" 
                   referrerPolicy="no-referrer"
@@ -473,7 +473,7 @@ export default function App() {
             <div className="bg-[#2e2f63] text-white px-6 py-4 shadow-md flex flex-col md:flex-row items-center justify-between gap-4 z-10 border-b border-white/10">
               <div className="flex items-center gap-4">
                 <img 
-                  src="../assets/placeholder-mimg-logo-white.svg" 
+                  src="/assets/placeholder-mimg-logo-white.svg" 
                   alt="M.I. Municipalidad de Guayaquil" 
                   className="h-10 w-auto object-contain" 
                   referrerPolicy="no-referrer"
